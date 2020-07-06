@@ -40,3 +40,68 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+const navLinks = document.querySelectorAll('a')
+console.log(navLinks)
+
+navLinks[0].textContent = 'Services'
+navLinks[1].textContent = 'Product'
+navLinks[2].textContent = 'Vision'
+navLinks[3].textContent = 'Features'
+navLinks[4].textContent = 'About'
+navLinks[5].textContent = 'Contact'
+
+const ctaTextBlock = document.querySelector('.cta-text')
+console.log(ctaTextBlock)
+
+const mainTitle = document.querySelector('h1')
+console.log(mainTitle)
+
+mainTitle.textContent = 'DOM IS AWESOME'
+
+mainTitle.style.fontSize = '60px'
+
+const getStartedButton = document.querySelector('button')
+console.log(getStartedButton)
+
+getStartedButton.textContent = "Get Started"
+
+const bannerImage = document.querySelector('#cta-img')
+console.log(bannerImage)
+bannerImage.src = 'img/header-img.png'
+bannerImage.setAttribute = ('src','img/header-img.png')
+
+const textContentTitle = document.querySelectorAll('h4')
+
+console.log(textContentTitle)
+
+textContentTitle[0].textContent = 'FEATURES'
+textContentTitle[1].textContent = 'ABOUT'
+textContentTitle[2].textContent = 'SERVICES'
+textContentTitle[3].textContent = 'PRODUCT'
+textContentTitle[4].textContent = 'VISION'
+
+const textContentP = document.querySelectorAll('p')
+console.log(textContentP)
+
+textContentP[0].textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis'
+textContentP[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+textContentP[2].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+textContentP[3].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+textContentP[4].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+
+const middleImage = document.querySelector('#middle-img')
+console.log(middleImage)
+
+middleImage.src = 'img/mid-page-accent.jpg'
+middleImage.setAttribute = ('src','img/mid-page-accent.jpg')
+
+const contactSection = document.querySelector('.contact')
+console.log(contactSection)
+
+textContentTitle[5].textContent = 'CONTACT'
+
+textContentP[5].textContent = '123 Way 456 Street Somewhere, USA'
+textContentP[6].textContent ='1 (888) 888-8888'
+textContentP[7].textContent ='sales@greatidea.io'
+textContentP[8].textContent = 'Copyright Great Idea! 2018'
