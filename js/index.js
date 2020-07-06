@@ -51,8 +51,17 @@ navLinks[3].textContent = 'Features'
 navLinks[4].textContent = 'About'
 navLinks[5].textContent = 'Contact'
 
+// navLinks.style.color = 'green'
+
+navLinks.forEach(function(item){
+  item.style.color = 'green'
+})
+
+// navLinks.forEach(item => item.style.color = "green");
+
 const ctaTextBlock = document.querySelector('.cta-text')
 console.log(ctaTextBlock)
+
 
 const mainTitle = document.querySelector('h1')
 console.log(mainTitle)
