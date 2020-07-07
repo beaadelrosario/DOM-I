@@ -41,6 +41,12 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
+const newNavLink1 = document.createElement('a')
+const nav = document.querySelector('nav')
+newNavLink1.textContent = 'Blog'
+newNavLink1.href = '#'
+nav.appendChild(newNavLink1)
+
 const navLinks = document.querySelectorAll('a')
 console.log(navLinks)
 
@@ -50,8 +56,6 @@ navLinks[2].textContent = 'Vision'
 navLinks[3].textContent = 'Features'
 navLinks[4].textContent = 'About'
 navLinks[5].textContent = 'Contact'
-
-// navLinks.style.color = 'green'
 
 navLinks.forEach(function(item){
   item.style.color = 'green'
@@ -114,3 +118,5 @@ textContentP[5].textContent = '123 Way 456 Street Somewhere, USA'
 textContentP[6].textContent ='1 (888) 888-8888'
 textContentP[7].textContent ='sales@greatidea.io'
 textContentP[8].textContent = 'Copyright Great Idea! 2018'
+
+
