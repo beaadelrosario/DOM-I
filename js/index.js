@@ -122,4 +122,8 @@ textContentP[6].textContent = siteContent.contact.phone
 textContentP[7].textContent = siteContent.contact.email
 textContentP[8].textContent = siteContent.footer.copyright
 
-
+const mainContent = document.querySelector('.main-content')
+mainContent.style.background = 'black'
+mainContent.style.color = 'white'
+mainContent.style.borderRadius = '10px'
+mainContent.style.border = '2px solid black'
